@@ -1,0 +1,44 @@
+ Q1   Differences between var, let, and const:
+Ans(1)
+var.. The scope of a var variable is functional scope.
+It can be updated and re-declared into the scope.It can be declared without initialization.
+It can be accessed without initialization as its default value is “undefined”.
+hoisting done, with initializing as ‘default’ value
+
+let..The scope of a let variable is block scope.It can be updated but cannot be re-declared into the scope.
+It can be declared without initialization.
+
+const..The scope of a const variable is block scope.It cannot be updated or re-declared into the scope.
+It cannot be declared without initialization.It cannot be accessed without initialization, as it cannot be declared without initialization.
+Hoisting is done, but not initialized 
+
+Q2 Difference between undefined vs not defined vs NaN?
+Ans(2)...
+undefined:It works like when we declared a variable in the code but did not assign the value before printing the variable value
+Not defined:It works like when we did not declare the variable and try to call that variable.
+NaN - NaN stands for Not a Number. You get this value when you try to do some operation that can't yield a meaningful result.
+
+
+ Q(3)What is difference between null and undefined and where to use what?
+ Ans(3)Undefined... means a variable has been declared but has yet not been assigned a value.
+ It is an ECMAScript1 (ES1) feature.
+ Null..Null is an assignment value. It can be assigned to a variable as a representation of no value.
+  It is a Primitive value in Javascript
+
+ Q4..What is execution context?
+ Ans(4)...When the JavaScript engine scans a script file,
+it makes an environment called the Execution Context that handles the entire
+transformation and execution of the code.
+During the context runtime, the parser parses the source
+code and allocates memory for the variables and functions.
+
+Q5..What is use of prompt in JavaScript? 
+Ans(5)The Javascript prompt() method is used to display a dialog box with an optional
+ message prompting the user to input some text. It is often used if the user 
+ wants to input a value before entering a page.
+ It returns a string containing the text entered by the user, or null. 
+
+ Q6..Why JavaScript is Dyanmic Language?
+Ans(6)Being able to change the underlying type of a variable while
+ the program is running without causing an error is what makes
+  JavaScript a dynamic language.
